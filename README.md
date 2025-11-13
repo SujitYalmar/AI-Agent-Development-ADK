@@ -147,6 +147,16 @@ Day 1b: Advanced Architecture
 ├── Multi-agent orchestration
 ├── Workflow patterns
 └── Real-world applications
+↓
+Day 2a: Custom Tools & Agent Collaboration
+├── Understanding custom tool integration
+├── Agent-to-agent tool composition
+└── Business logic in multi-agent systems
+↓
+Day 2b: Reliable Execution & Advanced Patterns
+├── Sandboxed code execution
+├── Multi-agent error handling
+└── Production-ready architecture
 ```
 
 ### What You'll Build
