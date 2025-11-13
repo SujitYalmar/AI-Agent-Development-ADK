@@ -49,6 +49,51 @@ Scale your agent knowledge to multi-agent systems. Explore:
 - Error handling in multi-agent systems
 - Performance optimization
 
+- #### Day 2a - Agent Tools: Custom Logic & Multi-Agent Systems
+
+**Location:** `notebooks/day-2a-agent-tools.ipynb`
+
+**Overview:**  
+On Day 2a, you learn how to transform simple language agents into powerful problem-solvers by integrating custom tools. While built-in tools like Google Search are useful, every business has unique requirements. This module teaches how to create Python functions as agent tools, delegate tasks to specialist agents, and orchestrate multi-tool workflows using the Agent Development Kit (ADK).
+
+**Key Highlights:**
+- Understand the importance of tools in unlocking agent capabilities beyond static knowledge
+- Learn to turn any Python function into a callable tool for agents (best practices: dictionary returns, docstrings, type hints, error handling)
+- Build a working currency conversion agent using multiple custom tools
+- Discover "agent tools" - leveraging agents as callable tools by other agents
+- Compare agent tools vs sub-agents (delegation vs full control handoff)
+- Explore ADK's ecosystem: function tools, agent tools, long-running tools, OpenAPI tools, MCP tools, and built-in Gemini tools
+- Practice integrating custom business logic instead of relying only on generic capabilities
+
+**Key Concepts:**
+- Custom tool development patterns
+- Agent-to-agent tool composition
+- Business logic integration
+- Tool orchestration and error handling
+- Multi-agent collaboration strategies
+
+#### Day 2b - Agent Tools: Reliable Code Execution & Advanced Tool Patterns
+
+**Location:** `notebooks/day-2b-agent-tools-best-practices.ipynb`
+
+**Overview:**  
+Day 2b builds on custom tool skills by ensuring agents deliver reliable results—not just text-based answers. You implement code execution workflows where agents generate Python code and delegate calculations to a specialist calculation agent. This sandboxed execution guarantees mathematically correct results.
+
+**Key Highlights:**
+- Use Gemini's BuiltInCodeExecutor to run Python code blocks produced by agents
+- Implement precise computation for complex tasks (financial calculations, data processing)
+- Update agent instructions to strictly offload calculations to specialized agents
+- Build robust multi-agent, multi-tool pipelines with error handling
+- Explore tool types and orchestration patterns for real-world problems
+- Understand best practices in agent communication, error management, and workflow design
+
+**Key Concepts:**
+- Sandboxed code execution
+- Reliable computation patterns
+- Multi-agent error handling
+- Workflow orchestration at scale
+- Production-ready agent architecture
+
 ### How to Access These Notebooks
 
 1. **On GitHub:**
@@ -56,7 +101,7 @@ Scale your agent knowledge to multi-agent systems. Explore:
    - Download `.ipynb` files to run locally with Jupyter
 
 2. **On Kaggle:**
-   - Original notebooks: [Day 1a](https://www.kaggle.com/code/sujityalmar/day-1a-from-prompt-to-action) and [Day 1b](https://www.kaggle.com/code/sujityalmar/day-1b-agent-architectures)
+   - Original notebooks: [Day 1a](https://www.kaggle.com/code/sujityalmar/day-1a-from-prompt-to-action) and [Day 1b](https://www.kaggle.com/code/sujityalmar/day-1b-agent-architectures), [Day 2a](https://www.kaggle.com/code/sujityalmar/day-2a-agent-tools), and [Day 2b](https://www.kaggle.com/code/sujityalmar/day-2b-agent-tools-best-practices)
    - Kaggle provides free compute and GPU access
    - All dependencies pre-installed
 
