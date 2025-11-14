@@ -20,79 +20,18 @@ This repository includes notebooks from the Google ADK "5 Days of Agents" course
 #### Day 1a - From Prompt to Action
 **Location:** `notebooks/day-1a-from-prompt-to-action.ipynb`
 
-Your first step into agent development. Learn how to:
-- Build a basic agent using the Google ADK
-- Integrate with Gemini LLM models
-- Use Google Search as a tool for information retrieval
-- Understand the core agent workflow: Think → Act → Observe
-
-**Key Concepts:**
-- Single-agent systems
-- Tool integration patterns
-- Prompt engineering for agents
-- API key management in Kaggle Notebooks
-
 #### Day 1b - Agent Architectures  
 **Location:** `notebooks/day-1b-agent-architectures.ipynb`
 
-Scale your agent knowledge to multi-agent systems. Explore:
-- Multi-agent team structures and specialization
-- Sequential agent workflows (execute agents one after another)
-- Parallel agent execution (run agents concurrently)
-- Loop agents (iterative refinement and feedback cycles)
-- Real-world applications: research, summarization, content generation
-
-**Key Concepts:**
-- Agent composition and orchestration
-- Workflow patterns for complex tasks
-- Agent communication and coordination
-- Error handling in multi-agent systems
-- Performance optimization
-
-- #### Day 2a - Agent Tools: Custom Logic & Multi-Agent Systems
+ #### Day 2a - Agent Tools: Custom Logic & Multi-Agent Systems
 
 **Location:** `notebooks/day-2a-agent-tools.ipynb`
 
-**Overview:**  
-On Day 2a, you learn how to transform simple language agents into powerful problem-solvers by integrating custom tools. While built-in tools like Google Search are useful, every business has unique requirements. This module teaches how to create Python functions as agent tools, delegate tasks to specialist agents, and orchestrate multi-tool workflows using the Agent Development Kit (ADK).
-
-**Key Highlights:**
-- Understand the importance of tools in unlocking agent capabilities beyond static knowledge
-- Learn to turn any Python function into a callable tool for agents (best practices: dictionary returns, docstrings, type hints, error handling)
-- Build a working currency conversion agent using multiple custom tools
-- Discover "agent tools" - leveraging agents as callable tools by other agents
-- Compare agent tools vs sub-agents (delegation vs full control handoff)
-- Explore ADK's ecosystem: function tools, agent tools, long-running tools, OpenAPI tools, MCP tools, and built-in Gemini tools
-- Practice integrating custom business logic instead of relying only on generic capabilities
-
-**Key Concepts:**
-- Custom tool development patterns
-- Agent-to-agent tool composition
-- Business logic integration
-- Tool orchestration and error handling
-- Multi-agent collaboration strategies
 
 #### Day 2b - Agent Tools: Reliable Code Execution & Advanced Tool Patterns
 
 **Location:** `notebooks/day-2b-agent-tools-best-practices.ipynb`
 
-**Overview:**  
-Day 2b builds on custom tool skills by ensuring agents deliver reliable results—not just text-based answers. You implement code execution workflows where agents generate Python code and delegate calculations to a specialist calculation agent. This sandboxed execution guarantees mathematically correct results.
-
-**Key Highlights:**
-- Use Gemini's BuiltInCodeExecutor to run Python code blocks produced by agents
-- Implement precise computation for complex tasks (financial calculations, data processing)
-- Update agent instructions to strictly offload calculations to specialized agents
-- Build robust multi-agent, multi-tool pipelines with error handling
-- Explore tool types and orchestration patterns for real-world problems
-- Understand best practices in agent communication, error management, and workflow design
-
-**Key Concepts:**
-- Sandboxed code execution
-- Reliable computation patterns
-- Multi-agent error handling
-- Workflow orchestration at scale
-- Production-ready agent architecture
 
 ### How to Access These Notebooks
 
@@ -186,7 +125,7 @@ After completing these notebooks, you'll be ready to:
 
 **Sujit Yalmar**
 - GitHub: [@SujitYalmar](https://github.com/SujitYalmar)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- LinkedIn: [View Profile](https://www.linkedin.com/in/sujit-yalmar/)
 
 ---
 
