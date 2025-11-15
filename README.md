@@ -6,19 +6,6 @@ This repository includes day-wise learning material, whitepapers, codelabs, and 
 
 ---
 
-## 🧭 Table of Contents  
-- [About](#about)  
-- [Course Structure](#course-structure)  
-- [Quick Start](#quick-start)  
-- [Key Learning Outcomes](#key-learning-outcomes)  
-- [Project Structure](#project-structure)  
-- [How to Use the Notebooks](#how-to-use-the-notebooks)  
-- [Requirements & Setup](#requirements--setup)  
-- [License](#license)  
-- [Contributing](#contributing)
-
----
-
 ## ✅ About  
 This repository contains all materials built and organized during the **5-Day AI Agents Intensive Course** by Google × Kaggle.  
 Inside this repo you will find:
