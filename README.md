@@ -33,7 +33,7 @@ A comprehensive, hands-on repository containing all materials from the **5-Day A
 
 ## 📖 Table of Contents
 
-- [Quick Start](#quick-start)
+- [Quick Start](#⚡quick-start)
 - [Course Structure](#course-structure)
 - [Project Layout](#project-layout)
 - [Prerequisites](#prerequisites)
@@ -46,7 +46,7 @@ A comprehensive, hands-on repository containing all materials from the **5-Day A
 
 ---
 
-## Quick Start
+## ⚡Quick Start
 
 ### Clone & Setup (5 minutes)
 
